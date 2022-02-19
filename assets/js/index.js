@@ -93,5 +93,5 @@ function create() {
     }
   }
 }
-
-window.addEventListener("load", create);
+create();
+// window.addEventListener("load", create);

@@ -214,12 +214,10 @@ nav {
   0% {
     transform: translateY(-1000px);
   }
-  99% {
-    opacity: 1;
-  }
+
   100% {
     transform: translateY(0px);
-    opacity: 0;
+    opacity: 1;
   }
 }
 
@@ -228,12 +226,10 @@ nav {
     0% {
       transform: translateY(-1000px);
     }
-    99% {
-      opacity: 1;
-    }
+
     100% {
       transform: translateY(0px);
-      opacity: 0;
+      opacity: 1;
     }
   }
 }
@@ -242,12 +238,9 @@ nav {
   0% {
     transform: translateY(1000px);
   }
-  99% {
-    opacity: 1;
-  }
   100% {
     transform: translateY(0px);
-    opacity: 0;
+    opacity: 1;
   }
 }
 @-moz-document url-prefix() {
@@ -255,12 +248,9 @@ nav {
     0% {
       transform: translateY(1000px);
     }
-    99% {
-      opacity: 1;
-    }
     100% {
       transform: translateY(0px);
-      opacity: 0;
+      opacity: 1;
     }
   }
 }
