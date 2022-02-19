@@ -173,7 +173,7 @@ nav {
   -webkit-animation: opacity 0s forwards;
   animation: opacity 0s forwards;
   -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+  animation-delay: 3s;
 }
 
 @-webkit-keyframes opacity {
