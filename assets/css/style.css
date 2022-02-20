@@ -484,18 +484,22 @@ nav {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 40%;
+  top: 50%;
+  transform: translateY(-50%);
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: var(--primaryColor);
+  background-color: var(--secondaryColor);
   font-weight: bold;
   font-size: 20px;
+  border: 1px solid var(--primaryColor);
   border-radius: 0 3px 3px 0;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   -webkit-user-select: none;
+  transition: 0.5s ease;
 }
 
 .prev {

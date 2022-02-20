@@ -1,10 +1,13 @@
 <div class="main">
     <div class="social-icons">
         <ul>
-            <li class="social-list"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li class="social-list"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-            <li class="social-list"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-            <li class="social-list"><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+            <li class="social-list"><a href="#" aria-label="facebook link"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li class="social-list"><a href="#" aria-label="instagram link"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li class="social-list"><a href="#" aria-label="twitter link"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="social-list"><a href="#" aria-label="pinterest link"><i class="fa-brands fa-pinterest-p"></i></a>
+            </li>
         </ul>
     </div>
     <div class="home" id="home">
@@ -80,8 +83,8 @@
             </div>
 
             <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+            <button class="next" onclick="plusSlides(1)">&#10095;</button>
         </div>
         <!-- Thumbnail images -->
         <div class="row">
@@ -173,7 +176,7 @@
                 <form action="">
                     <input type="text" placeholder="Name">
                     <input type="text" placeholder="Email">
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
                     <button class="btn">Send</button>
                 </form>
             </div>

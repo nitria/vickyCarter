@@ -10,11 +10,11 @@ $subTitle = "Photography";
         </div>
         <div class="navbar">
             <ul>
-                <li class="nav-links"><a href="#home">Home</a></li>
-                <li class="nav-links"><a href="#about">About</a></li>
-                <li class="nav-links"><a href="#portfolio">Portfolio</a></li>
-                <li class="nav-links"><a href="#services">Services</a></li>
-                <li class="nav-links"><a href="#contact">Contact</a></li>
+                <li class="nav-links"><a href="#home" arial-label="link to home section">Home</a></li>
+                <li class="nav-links"><a href="#about" arial-label="link to about section">About</a></li>
+                <li class="nav-links"><a href="#portfolio" arial-label="link to portfolio section">Portfolio</a></li>
+                <li class="nav-links"><a href="#services" arial-label="link to services section">Services</a></li>
+                <li class="nav-links"><a href="#contact" arial-label="link to contact section">Contact</a></li>
             </ul>
         </div>
         <div class="bars" onclick="toggleBtn()">
