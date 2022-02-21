@@ -1,6 +1,7 @@
 <?php
+$file = fopen('./main.php', 'r');
+echo $file;
 $dom = new DOMDocument();
-
 $dom->loadHTMLFile('main.php');
 $img = $dom->getElementsByTagName('img');
 foreach($img as $item){
@@ -17,8 +18,27 @@ if(isset($_SERVER['HTTP_ACCEPT'])){
 		$support = true;
 	}
 }
-if($support){
-    $img = getElementsByTagName();
-	echo $img;
-}
+// if($support){
+//     $img = getElementsByTagName();
+// 	echo $img;
+// }
+// $url = '';
+
+// $dom = new DOMDocument();
+// $dom -> loadHTML(file_get_contents($url, "r"));
+// $tags = $dom -> getElementsByTagName('img');
+// foreach($tags as $tag){
+//     $dir = './assets/images/';
+//     $imgSrc = $tag ->getAttribute('src');
+//     $exif = exif_read_data($imgSrc);
+//     foreach($exif as $key => $section){
+//         foreach($section as $name =>$val){
+//             echo $val;
+
+//         }
+//     }
+//     $ext = '/\bjpg$/gi';
+//     $img = imagecreatefromjpeg($dir . $imgSrc);
+   
+// }
 ?>

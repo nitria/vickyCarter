@@ -5,6 +5,7 @@
     content="I'm Vicky Carter a photographer with over 10 years experience. I do weddings, landscapes, portraits, graphic design and photoshop. Here you can check my latest projects.">
 <title>Vicky Carter | Portfolio Website</title>
 
-<link rel="stylesheet" href="./assets/css/reset.css">
+<link rel="stylesheet preload" as="style" href="./assets/css/reset.css">
 <link rel="stylesheet" href="./assets/css/style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+<link rel="stylesheet preload" as="style"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />

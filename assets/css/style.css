@@ -1,9 +1,11 @@
 @font-face {
   font-family: xtreemFat;
+  font-display: swap;
   src: url("../fonts/XtreemFat.ttf");
 }
 @font-face {
   font-family: sundey;
+  font-display: swap;
   src: url("../fonts/SundeyItalic.ttf");
 }
 :root {
@@ -281,7 +283,7 @@ nav {
 
 .btnContainer {
   position: absolute;
-  bottom: 60px;
+  bottom: 0px;
   left: 50%;
   transform: translate(-50%);
   z-index: 2;
@@ -731,6 +733,7 @@ textarea {
   border: none;
   border-bottom: 2px solid var(--primaryColor);
   color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0.5rem 0;
   padding: 0.3rem;
 }
